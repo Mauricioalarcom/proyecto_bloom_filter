@@ -7,7 +7,6 @@ def generate_url(is_malicious=False):
     malicious_words = ['phishing', 'login', 'secure', 'account', 'update', 'verify', 'bank', 'signin', 'wallet']
     # Dominios legítimos conocidos
     safe_domains = ['google', 'facebook', 'youtube', 'amazon', 'wikipedia', 'reddit', 'twitter', 'instagram', 'linkedin']
-    
     if is_malicious:
         # Generar algo que parezca phishing, ej: http://secure-login-amazon-update.xyz
         base = random.choice(malicious_words)
