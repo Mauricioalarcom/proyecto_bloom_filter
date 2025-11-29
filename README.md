@@ -30,7 +30,6 @@ bloom-filter-malicious-urls/
 │  ├─ generate_data.py   // Script para generar URLs de prueba
 │  ├─ blacklist_urls.txt // (Generado) Lista de URLs maliciosas
 │  └─ test_queries.txt   // (Generado) Lista de consultas
-├─ results/              // Carpeta para resultados (opcional)
 ├─ CMakeLists.txt        // Configuración de CMake
 └─ README.md             // Este archivo
 ```
