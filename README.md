@@ -7,6 +7,13 @@ El programa carga una lista de URLs "maliciosas" (blacklist) en un Bloom Filter.
 - **Bloom Filter**: Estructura probabilística que puede dar falsos positivos pero nunca falsos negativos. Muy eficiente en memoria.
 - **std::unordered_set**: Estructura exacta que almacena todas las claves. Mayor consumo de memoria.
 
+## Complejidad
+
+- Inserción en BloomFilter: O(k), con k hashes → tiempo constante.
+- Consulta en BloomFilter: O(k).
+- Inserción y consulta en `std::unordered_set`: O(1) promedio, pero con mayor coste de memoria.
+
+
 ## Requisitos
 - Compilador compatible con C++17 (g++, clang++, MSVC).
 - CMake 3.17 o superior (opcional, se puede compilar manualmente).
