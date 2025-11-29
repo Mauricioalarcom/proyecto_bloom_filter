@@ -68,4 +68,3 @@ Diego Alarcon,
 Valentino Contreras,
 Lucia Castro,
 Benjamin Suarez.
-# proyecto_bloom_filter
