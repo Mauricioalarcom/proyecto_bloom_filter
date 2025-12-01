@@ -1,0 +1,20 @@
+# Build artifacts
+/build/
+
+# Local binaries
+bloom_filter
+bloom_filter_server
+
+# macOS metadata
+.DS_Store
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# IDE metadata
+.idea/

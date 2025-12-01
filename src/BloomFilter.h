@@ -9,6 +9,7 @@
 // Utiliza un vector de booleanos para almacenar los bits y múltiples funciones hash
 // simuladas para verificar la pertenencia de un elemento.
 class BloomFilter {
+
 public:
     // Constructor
     // m: tamaño del filtro (número de bits)
@@ -23,6 +24,9 @@ public:
     // Retorna true si la URL podría estar (posible falso positivo).
     // Retorna false si la URL definitivamente NO está.
     bool possiblyContains(const std::string& url) const;
+
+    // Limpia el filtro (pone todos los bits a 0)
+    void clear();
 
     // Getters para estadísticas
     size_t getSize() const { return m; }
